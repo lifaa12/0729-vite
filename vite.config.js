@@ -24,8 +24,9 @@ function moveOutputPlugin() {
 
 export default defineConfig({
   // base 的寫法：
+  // 前後都要加斜線
   // base: '/Repository 的名稱/'
-  base: '/',
+  base: '/0729-vite/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
