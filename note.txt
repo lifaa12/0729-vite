@@ -1,0 +1,6 @@
+assets:放圖片、css
+
+ejs就像元件，模組化的一個一個，不只header、footer，navbar也可以做一個ejs
+<%-   %>
+
+npm run build 會撐成一個dist資料夾 可供佈署
